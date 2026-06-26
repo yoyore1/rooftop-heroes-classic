@@ -142,6 +142,7 @@ ul, ol { list-style: none; padding: 0; }
 .nav { display: flex; align-items: center; gap: 1.5rem; height: 72px; }
 .brand { display: inline-flex; align-items: center; gap: .55rem; font-family: var(--display); font-weight: 500; font-size: 1.4rem; letter-spacing: -0.02em; color: var(--ink); }
 .brand__dot { width: 9px; height: 9px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 0 4px var(--gold-tint); }
+.brand__logo { width: 40px; height: 40px; object-fit: contain; flex: none; border-radius: 6px; }
 .brand--light, .brand--light .brand__name { color: var(--bg); }
 .brand--light .brand__dot { box-shadow: 0 0 0 4px rgb(200 162 75 / .18); }
 
