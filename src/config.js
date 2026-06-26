@@ -93,7 +93,6 @@ export const SITE = {
     { id: "roof",     img: "roof",       label: "Roof" },
     { id: "storm",    img: "driveway",   label: "Storm Repair" },
     { id: "repair",   img: "house-wash", label: "Shingles" },
-    { id: "inspect",  img: "deck",       label: "Inspection" },
   ],
 
   // Reviews — CONFIRM/replace with real reviews (placeholders) ---------------
