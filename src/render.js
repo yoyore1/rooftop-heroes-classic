@@ -104,7 +104,6 @@ function beforeAfter(site) {
         <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Before / after comparison slider" data-ba-range>
       </figure>
       <div class="ba__thumbs" role="group" aria-label="Choose a surface to compare">${thumbs}</div>
-      <p class="ba__note">Before view shown for reference; after photos are real ${esc(site.brand.shortName)} jobs.</p>
     </div>`;
 }
 
