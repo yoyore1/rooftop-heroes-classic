@@ -90,9 +90,9 @@ export const SITE = {
   // `after` = the clean/new photo, `before` = the matching old/damaged photo.
   // When `before` is omitted, the slider fakes it with a CSS grime filter.
   beforeAfter: [
-    { id: "roof",     img: "roof",       label: "Roof" },
-    { id: "storm",    img: "driveway",   label: "Storm Repair" },
-    { id: "repair",   img: "house-wash", label: "Shingles" },
+    { id: "roof",   label: "Roof",         after: "roof",             before: "roof-before" },
+    { id: "storm",  label: "Storm Repair", after: "driveway-after",   before: "driveway" },
+    { id: "repair", label: "Shingles",     after: "house-wash-after", before: "house-wash" },
   ],
 
   // Reviews — CONFIRM/replace with real reviews (placeholders) ---------------
